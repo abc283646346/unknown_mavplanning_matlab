@@ -17,6 +17,8 @@ XTest = read_dataset(test_dir);
 
 xReconstructed = predict(autoenc,XTest);
 
+save autoenc1
+
 figure;
 for i = 1:4
     subplot(2,4,i);
